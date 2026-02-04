@@ -5,16 +5,16 @@
 
 ## Team Info
 
-* **22471A05B6 — **Hashmi Patan**
+* **22471A05B6 — Hashmi Patan**
   [LinkedIn](https://www.linkedin.com/in/hashmi-patan-670865276/)
   *Work Done:* Model design, hybrid CNN–RNN architecture implementation, DenseNet121 & MobileNetV2 integration, experimentation with LSTM/GRU/BiLSTM models, result analysis, paper drafting.
 
-* **22471A0596 —**Hemalatha Muchumari**
-  [LinkedIn](https://linkedin.com/in/xxxxxxxxxx)
+* **22471A0596 —Hemalatha Muchumari**
+  [LinkedIn](https://www.linkedin.com/in/hemalatha-muchumari-8bb71a285)
   *Work Done:* Dataset preprocessing, image enhancement (CLAHE, denoising, normalization), dataset splitting, validation experiments.
 
-* **22471A05C0 —  **Anusha Pinneboina**
-  [LinkedIn](https://linkedin.com/in/xxxxxxxxxx)
+* **22471A05C0 —  Anusha Pinneboina**
+  [LinkedIn](https://www.linkedin.com/in/pinneboina-anusha-a9b28428b)
   *Work Done:* Literature survey, comparative analysis, evaluation metrics calculation, confusion matrix and result visualization.
 
 ---
