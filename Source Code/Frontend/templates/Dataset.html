@@ -1,0 +1,54 @@
+{% extends "navbar.html" %}
+{% block content %}
+<div class="card shadow p-4">
+  <h2 class="text-primary mb-3">About the Project</h2>
+  <p>
+    The <strong>Malaria Detection System</strong> is a project where we trained a deep learning model to automatically detect malaria-infected cells from microscopic blood smear images. 
+    The system uses a combination of <strong>Convolutional Neural Networks (CNN)</strong>, <strong>Recurrent Neural Networks (RNN)</strong>, and hybrid CNN-RNN models to classify images into 
+    <em>Parasitized</em> and <em>Uninfected</em> categories with high accuracy, assisting medical professionals in faster and more reliable diagnosis.
+  </p>
+</div>
+
+<div class="card shadow p-4 mt-4">
+  <h2 class="text-primary mb-3">Dataset Description</h2>
+  <ul>
+    <li><strong>Dataset Name:</strong> Malaria Cell Images Dataset</li>
+    <li><strong>Source:</strong> National Institutes of Health (NIH), available on Kaggle</li>
+    <li><strong>Total Images:</strong> 27,558 (13,780 Parasitized, 13,778 Uninfected)</li>
+    <li><strong>Image Type:</strong> Microscopic RGB images of blood smears</li>
+    <li><strong>Classes:</strong> 2 (Parasitized, Uninfected)</li>
+    <li><strong>Image Size:</strong> 128×128 (resized for training)</li>
+  </ul>
+  <p>
+    📂 <strong>Dataset Source Link:</strong>
+    <a href="https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria" target="_blank">
+      Kaggle - Cell Images for Detecting Malaria
+    </a>
+  </p>
+
+  <!-- Sample Images Section -->
+  <div class="mt-4">
+    <h5 class="text-primary mb-3">Sample Images</h5>
+    <div class="row text-center">
+      <div class="col-md-6 mb-3">
+        <h6>Parasitized Cell</h6>
+        <img src="{{ url_for('static', filename='img/Parasitied_cell.png') }}" 
+             alt="Parasitized Cell" class="img-fluid rounded shadow-sm" style="max-width: 250px;">
+      </div>
+      <div class="col-md-6 mb-3">
+        <h6>Uninfected Cell</h6>
+        <img src="{{ url_for('static', filename='img/uninfected_cell.png') }}" 
+             alt="Uninfected Cell" class="img-fluid rounded shadow-sm" style="max-width: 250px;">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card shadow p-4 mt-4 mb-5">
+  <h2 class="text-primary mb-3">Acknowledgment</h2>
+  <p>
+    The dataset used in this project is provided by the <strong>National Institutes of Health (NIH)</strong> and made publicly available on Kaggle. 
+    Special thanks to the contributors who curated and shared this dataset for research and academic purposes.
+  </p>
+</div>
+{% endblock %}
