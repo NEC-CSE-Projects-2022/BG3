@@ -13,7 +13,7 @@
   [LinkedIn](https://linkedin.com/in/xxxxxxxxxx)
   *Work Done:* Dataset preprocessing, image enhancement (CLAHE, denoising, normalization), dataset splitting, validation experiments.
 
-* **22471A05XX —  **Anusha Pinneboina**
+* **22471A05C0 —  **Anusha Pinneboina**
   [LinkedIn](https://linkedin.com/in/xxxxxxxxxx)
   *Work Done:* Literature survey, comparative analysis, evaluation metrics calculation, confusion matrix and result visualization.
 
